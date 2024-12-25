@@ -13,6 +13,11 @@
         android:theme="@style/Theme.Megaigrasu"
         tools:targetApi="31">
         <activity
+            android:name=".CatalogActivity"
+            android:exported="false"
+            android:label="@string/title_activity_catalog"
+            android:theme="@style/Theme.Megaigrasu" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
